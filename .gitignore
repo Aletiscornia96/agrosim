@@ -1,0 +1,33 @@
+# Node modules (back y front)
+api/node_modules/
+client/node_modules/
+
+# Archivos env
+*.env
+
+# Logs
+*.log
+logs/
+npm-debug.log*
+yarn-error.log*
+
+# Carpeta de builds
+api/build/
+client/dist/
+
+# Coverage
+coverage/
+api/coverage/
+
+# Cache de herramientas
+client/.vite/
+client/.next/
+client/.parcel-cache/
+
+# Archivos temporales
+.DS_Store
+Thumbs.db
+
+# Cargas de archivos
+api/uploads/
+api/temp/
